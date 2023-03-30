@@ -1,0 +1,9 @@
+import turtle 
+turtle.bgcolor("orange")
+
+squary = turtle.Turtle()
+squary.speed(20)
+squary.pencolor("white")
+for i in range(1000):
+    squary.forward(i)
+    squary.left(91)
